@@ -26,7 +26,7 @@ struct ContentView: View {
             Image(systemName: imageName)
                 .resizable()
                 .frame(width: 300, height: 300)
-                .foregroundStyle(.black)
+                .foregroundStyle(.blue)
             Text(message)
                 .foregroundStyle(.purple)
                 .font(.largeTitle)
